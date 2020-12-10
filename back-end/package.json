@@ -1,0 +1,21 @@
+{
+  "name": "simplehttpserver",
+  "version": "1.0.0",
+  "description": "Simple http server to send push notifications",
+  "main": "index.js",
+  "scripts": {
+    "generate-keys": "web-push generate-vapid-keys",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "push",
+    "http",
+    "node"
+  ],
+  "author": "one_plus_half",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
+}
