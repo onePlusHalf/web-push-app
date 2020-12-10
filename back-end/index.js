@@ -13,7 +13,7 @@ const keys = webPush.generateVAPIDKeys();
 console.log('Vapid Keys: ', keys);
 
 // This sets private-public key pair
-webPush.setVapidDetails('mailto:rahul.kumar.kaushik@outlook.com', keys.publicKey, keys.privateKey);
+webPush.setVapidDetails('mailto:kumar.rahul.kaushik@outlook.com', keys.publicKey, keys.privateKey);
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
